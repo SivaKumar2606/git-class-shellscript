@@ -11,4 +11,6 @@ hostnamectl
 echo "users list in your machine..."
 sudo cat /etc/passwd | tail -5
 
+echo "your username..."
+id -un
 #END
