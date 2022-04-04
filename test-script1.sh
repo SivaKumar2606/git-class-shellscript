@@ -8,4 +8,7 @@ cat /proc/meminfo
 echo "your Machine details..."
 hostnamectl
 
+echo "users list in your machine..."
+sudo cat /etc/passwd | tail -5
+
 #END
