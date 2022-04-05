@@ -16,4 +16,7 @@ id -un
 
 echo "This line is added by Hiveuser1"
 
+echo "This line is entered by Hiveuser2..."
+
+
 #END
