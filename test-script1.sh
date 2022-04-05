@@ -13,4 +13,7 @@ sudo cat /etc/passwd | tail -5
 
 echo "your username..."
 id -un
+
+echo "This line is added by Hiveuser1"
+
 #END
