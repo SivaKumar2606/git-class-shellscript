@@ -1,0 +1,120 @@
+Hi Shiva! (Interviewer Name!)
+
+Myself Sumalya. On a Brief NOte, I am Having 2+ Years of Experience in BigData Technologies - 
+Sqoop, Hive, HDFS, Yarn and Shell Scripting. As a part of Daily
+activities i use all these techonolgies along with Advanced Data Processing 
+Commands like Awk,Find,Sed,Sort for File & Data Validations.
+
+Currently i am working in Retail Sector for the client The HOME DEPOT, US.
+
+
+(Interviewer Question)
+Can u Tell me about your Current Project (or) Last Project ??? ...  ya go on..
+
+Sure! MY Current Project is "to Integrate GOlden-Record Full View with
+Teradata EDW Space."
+
+Technically Golden-Record is the Consolidated & Integrated
+Custormer Profile Data - like a Master Data Set having 4 Data Streams/Sets like 
+..... 
+which are also Called as "UCM Tables - Universal Customer Master Tables".
+
+
+
+All these 4 Data Streams Explain ABout 2 types of Customers - PRO & DIY.
+
+-PRO customers are the ONe who Subscribe to Marketing Schemes like ......
+
+-DIY Customers are the Individual Customers.
+
+
+
+As a Part OF Data Loading.....(Multiple Data Source/Data Points)
+......
+......
+
+
+
+Coming To Techincal Flow as a part of my Project.......
+........
+.....
+
+
+
+Other Tools like "BMC's Control-M for Hadoop" is used as SCHEDULER and For Versioning we used "GitHub". For Log Monitoring & Reporting
+we Used "Splunk".
+
+Have you work on splunk/powerbi?
+- Dedicated Team with Spulnk Admins who work for Log Monitoring, ANlaysis & Reporting.
+
+But, I have attended "Workshops"/Drills on Splunk & PowerBI and USed them for Project Discussions with My 
+Team.
+
+
+
+- We Write "COntrol Entries(Application Form)" on a dedicated tool for Hive Jobs as a part of Scheduling. BatchOps Team will
+ look into Scheduling stuff.
+
+UI Plane - User Interface View
+--------------------------------------------------
+
+What are the Scenarios you Used Advanced Data Processing Commands ???
+
+Yes.
+
+As a Part of Data Validations and Cleansing over "DELTA WOrkLoads" To Generate "QUALIFIED Test Data",
+I use mostly,
+- Awk for Taking a Sample of Data around 100 Records, using NR Switch
+- Then Cleanse the Data using "Column & Cut Command" to Remove Additional Blank Spaces & GREEDY Output(Mismatch
+  columns)
+- For Redirecting output to differnt Files i use 'tee' command.
+- If Required, i Import this Cleansed Data into Excel for data Checks.
+
+
+For "Historical WOrkloads", we do File Management, like 
+- Find command using -mtime, -atime, -type switch to check their level of access
+- grep command to check for patterns w.r.to SUbscriptions schemes.
+- permissions on files - chmod
+- Taking Backup or Move to Safe Directory 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===================================================================================================
+
+cat /etc/passwd - For sample data /Test Data
+
+root@DESKTOP-M437RV6:~# awk -F ":" '{print NR, $0}' users.txt
